@@ -33,7 +33,6 @@ function error(){
     prayerTimes(alert('Geolocation doesn\'t support on your browser, please use other browser'));
 }
 
-// '-6.175110', '106.865036'
 
 function userLocation() {
     if (!navigator.geolocation) {
